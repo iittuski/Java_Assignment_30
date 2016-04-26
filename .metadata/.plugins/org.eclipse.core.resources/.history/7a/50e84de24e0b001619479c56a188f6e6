@@ -1,0 +1,23 @@
+package j30;
+
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.Iterator;
+
+public class j30 {
+	
+	public static void main(String args[]){
+		
+		HashSet<String> arr = new HashSet()<>();
+		arr.add(0,"Tushar Thurawa");
+		arr.add(1,"Megha Goyal");
+		arr.add(2,"Neha Khare");
+		
+		Iterator<String> it = arr.iterator();
+		while(it.hasNext()){
+			System.out.println(it.next());
+		}
+		
+	}
+
+}
